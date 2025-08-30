@@ -17,24 +17,24 @@ Telegram бот для проведения опросов о глобально
 - 📱 **Адаптивный дизайн** для мобильных устройств
 
 ## 🏗️ Структура проекта
-climate-poll-bot/
-├── bot/ # Telegram бот
-│   ├── bot.py # Основной код бота
-│   ├── cfg.py # Конфигурация (токен бота)
-│   └── climate_poll.db # База данных (создается автоматически)
-├── web/ # Веб-приложение
-│   ├── app.py # Flask приложение
-│   ├── config.py # Конфигурация Flask
-│   ├── static/
-│   │   └── css/
-│   │   └── style.css # Стили веб-страниц
-│   └── templates/ # HTML шаблоны
-│       ├── base.html # Базовый шаблон
-│       ├── index.html # Главная страница
-│       ├── stats.html # Страница статистики
-│       └── error.html # Страница ошибок
-├── requirements.txt # Зависимости
-└── README.md # Этот файл
+- climate-poll-bot/
+- ├── bot/ # Telegram бот
+- │   ├── bot.py # Основной код бота
+- │   ├── cfg.py # Конфигурация (токен бота)
+- │   └── climate_poll.db # База данных (создается автоматически)
+- ├── web/ # Веб-приложение
+- │   ├── app.py # Flask приложение
+- │   ├── config.py # Конфигурация Flask
+- │   ├── static/
+- │   │   └── css/
+- │   │   └── style.css # Стили веб-страниц
+- │   └── templates/ # HTML шаблоны
+- │       ├── base.html # Базовый шаблон
+- │       ├── index.html # Главная страница
+- │       ├── stats.html # Страница статистики
+- │       └── error.html # Страница ошибок
+- ├── requirements.txt # Зависимости
+- └── README.md # Этот файл
 
 ## 📋 Вопросы опроса
 
@@ -63,6 +63,7 @@ climate-poll-bot/
 git clone https://github.com/ваш-username/climate-poll-bot.git
 cd climate-poll-bot
 pip install -r requirements.txt
+```
 
 ### 2. Настройка бота
 

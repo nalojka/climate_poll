@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Ошибка - Climate Poll{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card p-4 text-center">
+            <div class="icon-box" style="background: #dc3545;">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <h2 class="text-danger mb-3">Ошибка подключения к базе данных</h2>
+            <p class="text-muted">{{ error }}</p>
+            <p>Убедитесь, что файл базы данных существует по пути:</p>
+            <code class="bg-light p-2 rounded d-block">{{ db_path }}</code>
+            <div class="mt-4">
+                <a href="{{ url_for('index') }}" class="btn btn-primary">
+                    <i class="fas fa-home me-2"></i>На главную
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
